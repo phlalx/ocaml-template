@@ -7,3 +7,5 @@ type t =
 val parse : string -> t
 
 val to_string : t -> string
+
+val hello_world : unit -> string

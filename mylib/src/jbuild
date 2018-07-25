@@ -3,5 +3,4 @@
 (library
   ((name mylib)
       (libraries (core)) 
-      (preprocess (pps (ppx_jane)))
-      (wrapped false) ))
+      (preprocess (pps (ppx_jane)))))

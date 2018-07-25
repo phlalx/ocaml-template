@@ -8,3 +8,5 @@ type t =
 let to_string t = t |> sexp_of_t |> Sexp.to_string 
 
 let parse s = t_of_sexp (Sexp.of_string s)
+
+let hello_world () = "hello world"
